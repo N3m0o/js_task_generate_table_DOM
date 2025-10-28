@@ -367,7 +367,7 @@ people.forEach((person) => {
 
   const cells = [
     person.name,
-    person.sex,
+    person.sex === 'm' ? 'Male' : 'Female',
     person.born,
     person.died,
     personAge,
